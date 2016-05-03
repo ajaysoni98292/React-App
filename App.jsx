@@ -1,11 +1,13 @@
 import React from 'react';
 
-var App = React.createClass({
+class App extends React.Component {
     render() {
         return (
-            <div>Hello Ajay!!</div>
+            <div>
+                Hello World!!!
+            </div>
         );
     }
-});
+}
 
-module.exports = App;
+export default App;

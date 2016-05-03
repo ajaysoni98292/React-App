@@ -10,22 +10,17 @@ var config = {
         inline: true,
         port: 7777
     },
+
     module: {
-        loaders: [
-            {
-                test: /\.jsx?$/,
-                exclude: /node_modules/,
-                loader: ['react-hot'],
-            },
-            {
-                test: /\.jsx?$/,
-                exclude: /node_modules/,
-                loader: ['babel-loader'],
-                query: {
-                    presets: ['es2015', 'react']
-                }
+        loaders: [ {
+            test: /\.jsx?$/,
+            exclude: /node_modules/,
+            loader: 'babel',
+
+            query: {
+                presets: ['es2015', 'react']
             }
-        ]
+        }]
     }
 
 }

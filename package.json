@@ -2,9 +2,10 @@
   "name": "reactapp",
   "version": "1.0.0",
   "description": "learning react",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
-    "start": "webpack-dev-server --hot"
+    "build": "webpack",
+    "start": "webpack-dev-server"
   },
   "author": "ajay",
   "license": "ISC",
