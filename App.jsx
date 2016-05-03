@@ -1,8 +1,8 @@
 import React from 'react';
 
-var App = React.createClass( {
+var App = React.createClass({
     render() {
-        return(
+        return (
             <div>Hello Ajay!!</div>
         );
     }
