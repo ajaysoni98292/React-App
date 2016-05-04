@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import Header from './Header.jsx';
 import Footer from './Footer.jsx';
+import Content from './Content.jsx';
 
 class App extends React.Component {
 
@@ -9,8 +10,8 @@ class App extends React.Component {
         return (
             <div>
                 <Header />
-                <p>App is content</p>
-                <Footer />
+                <Content />
+                <Footer footerProps="footer prop" />
             </div>
         );
     }
